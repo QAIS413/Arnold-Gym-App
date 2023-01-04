@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="@color/material_dynamic_primary20">
+    <TextView
+        android:id="@+id/fn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="504dp"
+        android:text="First Name"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="449dp"
+        android:text="Last Name"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="394dp"
+        android:text="Phone number"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/Membership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="343dp"
+        android:text="Membership"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="278dp"
+        android:text="Total price in R.O"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edit_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="495dp"
+        android:ems="10"
+        android:text=""
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="441dp"
+        android:ems="10"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="384dp"
+        android:ems="10"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/edit_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="335dp"
+        android:ems="10"
+        android:text=""
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/edit_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="278dp"
+        android:ems="10"
+        android:text=""
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginRight="257dp"
+        android:layout_marginBottom="195dp"
+        android:backgroundTint="@color/white"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_updt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="254dp"
+        android:layout_marginRight="254dp"
+        android:layout_marginBottom="115dp"
+        android:backgroundTint="@color/white"
+        android:text="Update"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_delt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="192dp"
+        android:backgroundTint="@color/white"
+        android:text="Delete"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+
+        />
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:layout_marginBottom="194dp"
+        android:backgroundTint="@color/white"
+        android:text="View"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="113dp"
+        android:backgroundTint="@color/white"
+        android:text="Clear"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+
+        />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:layout_marginBottom="115dp"
+        android:backgroundTint="@color/white"
+        android:text="Calc"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/m1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Now To Arnold GYM"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+</RelativeLayout>
